@@ -1,0 +1,4 @@
+run("Duplicate...", "duplicate channels=2");
+setAutoThreshold("Default dark no-reset");
+setOption("BlackBackground", false);
+run("Convert to Mask");
